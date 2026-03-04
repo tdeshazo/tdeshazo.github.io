@@ -1,0 +1,85 @@
+baseURL = "https://travisdeshazo.com"
+languageCode = "en-us"
+title = "Travis DeShazo"
+theme = "careercanvas"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      tagline = "Engineer. Coder. Problem Solver."
+      hero_description = "Software engineer building API-driven services and ETL pipelines for laboratory and pilot-plant workflows, with 10+ years of domain expertise in high-consequence operational environments."
+      hero_location = "New Jersey, USA"
+      collab_tags = [
+        "AI/ML Solutions",
+        "Engineering Software",
+        "R&D & Innovation",
+        "Technical Leadership"
+      ]
+
+[build]
+  writeStats = true
+
+[params]
+name = "Travis DeShazo"
+email = "my@email.com"
+profile_image = "/images/travis-deshazo-profile.jpg"
+author = "Travis DeShazo"
+
+og_image = "/images/travis-deshazo-profile.jpg"
+
+description = "Software engineer expanding into AI/ML to solve complex engineering and automation challenges."
+
+linkedin_url = "https://www.linkedin.com/in/travisdeshazo"
+linkedin_text = "linkedin.com/in/travisdeshazo"
+github_url = "https://github.com/tdeshazo"
+github_text = "github.com/tdeshazo"
+
+copyright = "© 2026 | Travis DeShazo"
+
+
+resume_url_en = "/files/Travis_DeShazo_Resume.pdf"
+resume_label = "View Resume"
+
+formspree_endpoint = "https://formspree.io/f/xdalqjvr"
+
+[[params.social]]
+icon = "linkedin-in"
+url = "https://www.linkedin.com/in/travisdeshazo/"
+
+[[params.social]]
+icon = "github"
+url = "https://github.com/tdeshazo"
+
+sectionPagesMenu = 'main'
+
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[server]
+  [[server.headers]]
+    for = "/**/*.css"
+    [server.headers.values]
+      Content-Type = "text/css"
+
+
+# Branding Configuration - Savannah King
+[params.colors]
+  # main_color   = "#A97142"  # Lion Brown, warm and dominant
+  # second_color = "#2E2E2E"  # Dark Charcoal, authority
+  # third_color  = "#E6B325"  # Golden Mane, majesty and power
+  main_color   = "#095BB0"  # Slightly Darker LinkedIn Blue, professional and trustworthy
+  second_color = "#004182"  # Darker Blue, for depth and sophistication
+  third_color  = "#8C8C8C"  # Neutral Gray, for balance and modernity
