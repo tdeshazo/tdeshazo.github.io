@@ -26,7 +26,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
 name = "Travis DeShazo"
-email = "my@email.com"
+email = "travis@deshazo.dev"
 profile_image = "/images/travis-deshazo-profile.jpg"
 author = "Travis DeShazo"
 
