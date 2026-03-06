@@ -191,7 +191,12 @@ function initTypingEffect() {
     const typewriterElement = document.querySelector('.typewriter');
     if (!typewriterElement) return;
 
-    const text = typewriterElement.textContent;
+    const text = (typewriterElement.textContent || '').trim();
+    if (!text) return;
+
+    const phrases = text.match(/[^.]+\.?/g)
+        ?.map((phrase) => phrase.trim())
+        .filter(Boolean) || [text];
     
     typewriterElement.textContent = '';
     typewriterElement.style.color = 'transparent';
@@ -206,8 +211,14 @@ function initTypingEffect() {
         marginLeft: '2px',
         verticalAlign: 'text-bottom'
     });
-    
-    typewriterElement.appendChild(cursor);
+
+    const renderText = (content) => {
+        typewriterElement.textContent = content;
+        typewriterElement.appendChild(cursor);
+        typewriterElement.style.color = content ? 'inherit' : 'transparent';
+    };
+
+    renderText('');
 
     gsap.to(cursor, {
         opacity: 0,
@@ -217,44 +228,33 @@ function initTypingEffect() {
         repeat: -1
     });
 
-    const chars = text.split('');
     const timeline = gsap.timeline({ 
         delay: 1.0,
         repeat: -1,
-        onRepeat: () => {
-            typewriterElement.textContent = '';
-            typewriterElement.appendChild(cursor);
-            typewriterElement.style.color = 'transparent';
-        }
+        onRepeat: () => renderText('')
     });
 
-    chars.forEach((char, index) => {
-        timeline.to(typewriterElement, {
-            duration: 0.05,
-            onUpdate: function() {
-                const textContent = chars.slice(0, index + 1).join('');
-                typewriterElement.textContent = textContent;
-                typewriterElement.appendChild(cursor);
-                typewriterElement.style.color = 'inherit';
-            }
+    phrases.forEach((phrase) => {
+        const chars = phrase.split('');
+
+        chars.forEach((_, index) => {
+            timeline.to({}, {
+                duration: 0.05,
+                onStart: () => renderText(chars.slice(0, index + 1).join(''))
+            });
         });
+
+        timeline.to({}, { duration: 1.5 });
+
+        for (let index = chars.length; index > 0; index -= 1) {
+            timeline.to({}, {
+                duration: 0.03,
+                onStart: () => renderText(chars.slice(0, index - 1).join(''))
+            });
+        }
+
+        timeline.to({}, { duration: 0.35 });
     });
-    
-    timeline.to(typewriterElement, { duration: 2 });
-    
-    const reversedChars = [...chars].reverse();
-    reversedChars.forEach((char, index) => {
-        timeline.to(typewriterElement, {
-            duration: 0.03,
-            onUpdate: function() {
-                const textContent = reversedChars.slice(index + 1).reverse().join('');
-                typewriterElement.textContent = textContent;
-                typewriterElement.appendChild(cursor);
-            }
-        });
-    });
-    
-    timeline.to(typewriterElement, { duration: 1 });
     
     typingEffectInitialized = true;
 }
