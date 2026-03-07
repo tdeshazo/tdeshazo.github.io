@@ -23,6 +23,10 @@ defaultContentLanguageInSubdir = false
 [build]
   writeStats = true
 
+[services]
+  [services.googleAnalytics]
+    id = "G-YZN90BK5KF"
+
 [params]
 name = "Travis DeShazo"
 email = "travis@deshazo.dev"
