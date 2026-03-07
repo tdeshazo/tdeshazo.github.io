@@ -11,11 +11,10 @@ defaultContentLanguageInSubdir = false
     languageName = "English"
     weight = 1
     [languages.en.params]
-      tagline = "Chemist. Software Engineer. Problem Solver. Force Multiplier."
+      tagline = "Scientist. Software Engineer. Problem Solver."
       hero_description = "Software engineer building API-driven services and ETL pipelines for laboratory and pilot-plant workflows, with 10+ years of domain expertise in high-consequence operational environments."
       hero_location = "New Jersey, USA"
       collab_tags = [
-        "AI/ML Solutions",
         "Engineering Software",
         "R&D & Innovation",
         "Technical Leadership"

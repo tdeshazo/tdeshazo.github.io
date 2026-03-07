@@ -24,6 +24,11 @@ url = "/#technical"
 weight = 4.5
 
 [[main]]
+name = "Projects"
+url = "/projects"
+weight = 50
+
+[[main]]
 name = "Blog"
 pageRef = "/blog"
 weight = 60
