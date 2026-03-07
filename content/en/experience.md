@@ -8,17 +8,17 @@ resume_url_en: "/files/Travis_DeShazo_Resume.pdf"
 resume_label: "Download Resume"
 
 positions:
-  - company: "Boot.dev"
-    company_url: "https://www.boot.dev"
-    role: "Back-end Developer Path Certificate"
-    period: "Feb 2026"
-    industry: "Professional Development"
-    industry_icon: "graduation-cap"
-    location: "Remote"
-    company_description: "Completed structured backend training focused on practical software engineering fundamentals."
-    bullet_points:
-      - "Earned the Back-end Developer Path Certificate in February 2026."
-      - "Covered Python, Go, SQL, HTTP APIs, Docker, and AWS fundamentals."
+  # - company: "Boot.dev"
+  #   company_url: "https://www.boot.dev"
+  #   role: "Back-end Developer Path Certificate"
+  #   period: "Feb 2026"
+  #   industry: "Professional Development"
+  #   industry_icon: "graduation-cap"
+  #   location: "Remote"
+  #   company_description: "Completed structured backend training focused on practical software engineering fundamentals."
+  #   bullet_points:
+  #     - "Earned the Back-end Developer Path Certificate in February 2026."
+  #     - "Covered Python, Go, SQL, HTTP APIs, Docker, and AWS fundamentals."
 
   - company: "ExxonMobil Technology and Engineering Company"
     company_url: "https://corporate.exxonmobil.com"

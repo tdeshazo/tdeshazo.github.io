@@ -1,5 +1,5 @@
 ---
-title: "Comming Soon"
+title: "Coming Soon"
 date: 2026-03-06
 draft: false
 description: "This blog is still a work in progress. Stop by again soon for posts on engineering, software development, technology, and the ideas that influence my work."

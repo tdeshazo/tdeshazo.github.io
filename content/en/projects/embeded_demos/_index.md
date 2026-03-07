@@ -7,4 +7,4 @@ featured_image: "/images/projects/embedded_demos/thermal-camera.jpg"
 tags: ["electronics", "embedded", "education"]
 ---
 
-Electronics
+*Coming Soon*
