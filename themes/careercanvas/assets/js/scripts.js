@@ -25,7 +25,33 @@ function initializeSectionFadeIn() {
     });
 }
 
+function initializePronunciationButton() {
+    const trigger = document.querySelector('[data-pronunciation-trigger]');
+    const audio = document.getElementById('hero-pronunciation-audio');
+
+    if (!trigger || !audio) return;
+
+    const clearPlayingState = () => {
+        trigger.classList.remove('is-playing');
+    };
+
+    trigger.addEventListener('click', async function() {
+        audio.currentTime = 0;
+        trigger.classList.add('is-playing');
+
+        try {
+            await audio.play();
+        } catch (error) {
+            clearPlayingState();
+        }
+    });
+
+    audio.addEventListener('ended', clearPlayingState);
+    audio.addEventListener('pause', clearPlayingState);
+}
+
 // Initialize section fade-in when DOM is ready
 document.addEventListener('DOMContentLoaded', function() {
     initializeSectionFadeIn();
+    initializePronunciationButton();
 });

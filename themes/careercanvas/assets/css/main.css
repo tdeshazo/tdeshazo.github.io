@@ -181,6 +181,49 @@
     background-clip: text;
   }
 
+  .hero-name-wrap {
+    position: relative;
+    display: inline-block;
+  }
+
+  .hero-pronunciation-button {
+    position: absolute;
+    left: calc(100% + 0.5rem);
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    background: rgba(255, 255, 255, 0.14);
+    color: var(--color-white);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .hero-pronunciation-button:hover {
+    background: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.22);
+  }
+
+  .hero-pronunciation-button:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.95);
+    outline-offset: 3px;
+  }
+
+  .hero-pronunciation-button.is-playing {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .hero-pronunciation-button i {
+    font-size: 0.95rem;
+  }
+
   .hero-tagline::after {
     content: '';
     position: absolute;
