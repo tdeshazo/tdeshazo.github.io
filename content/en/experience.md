@@ -28,10 +28,9 @@ positions:
     location: "Annandale, NJ"
     company_description: "Embedded in pilot plant and laboratory engineering as one of two software engineers supporting research applications and data integrations."
     bullet_points:
-      - "Developed Python chemical inventory tools and ETL pipelines enabling compliant disposal of 475K gallons of research samples, delivering $696K/year savings."
-      - "Modernized a legacy data platform into an API-driven ASP.NET Core and SQL Server stack, reducing response time by 65%."
+      - "Developed Python chemical inventory tools for site leadership and Safety, Health & Environment personnel."
+      - "Modernized a legacy data platform supporing hydroprocessing process research into an API-driven ASP.NET Core and SQL Server stack, enhancing latency, maintainability, and extensibility."
       - "Integrated LIMS and OPC-HDA historian data into purpose-built applications and dashboards for real-time metrics."
-      - "Led development and maintenance of a lab and pilot-plant data platform supporting 20 hydroprocessing pilot units and 30 users across the U.S. and Malaysia."
 
   - company: "ExxonMobil Technology and Engineering Company"
     company_url: "https://corporate.exxonmobil.com"
@@ -42,8 +41,8 @@ positions:
     company_description: "Led global crude assay distillation operations while driving automation and software-enabled process improvements."
     bullet_points:
       - "Developed a Python SDK and test framework validating 100% of new in-house LIMS API connections."
-      - "Reduced raw-material processing time by 50% by designing metrics models and streamlining workflows."
-      - "Increased distillation throughput by 30% through automated solutions and custom operating routines."
+      - "Reduced raw-material processing time by designing metrics models and streamlining workflows."
+      - "Increased distillation throughput by leveraged automated solutions and custom operating routines."
       - "Led a team of 5 technicians and coordinated with cross-functional technical teams to improve assay turnaround and consistency."
       - "Expanded scope in November 2023 to a split role across distillation leadership and software engineering."
 

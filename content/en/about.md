@@ -3,7 +3,7 @@ title: "About"
 type: "homepage"
 featured_image: "/images/travis-deshazo-profile.jpg"
 intro: >-
-  Hi, I'm Travis DeShazo, a software engineer building API-driven services and ETL pipelines for laboratory and pilot-plant workflows. I combine software engineering with 10+ years of domain experience in lab and process operations to deliver reliable systems in regulated, high-consequence environments.
+  Hi, I'm Travis DeShazo. I started my career in lubricant base stocks process and separations. After years of effective advocacy for automation and technology in the lab, I'm now a software engineer building API-driven services and ETL pipelines supporting laboratory and pilot-plant research operations. I enjoy working with cross-functional teams to deliver practical, reliable, and scalable solutions.
 
 study: >-
   I completed the **Back-end Developer Path Certificate** at **Boot.dev** in **February 2026**, with coursework in Python, Go, SQL, HTTP APIs, Docker, and AWS fundamentals. I continue to focus on backend architecture, data integration, and production-grade system reliability.
@@ -24,13 +24,13 @@ quickfacts:
     value: "Technical Software Engineer at **ExxonMobil Technology and Engineering Company** (May 2024 - Present)"
   - icon: "industry"
     title: "Industry Background"
-    value: "10+ years in laboratory and pilot-plant operations with software delivery in regulated environments."
+    value: "10+ years in laboratory and pilot-plant operations with software delivery in scientific/industrial environments."
   - icon: "graduation-cap"
     title: "Education"
     value: "**Boot.dev**: Back-end Developer Path Certificate (Feb 2026)<br>**Rowan University**: B.S. Chemistry with Minor in Physics (Dec 2012)"
   - icon: "award"
     title: "Recent Achievement"
-    value: "Developed Python inventory and ETL workflows that supported compliant disposal of **475K gallons** of research samples and delivered **$696K/year savings**."
+    value: "Developed Python inventory and ETL workflows that supported compliant disposal of **475K gallons** of research samples and delivered significant annual savings in storage and personnel costs."
   - icon: "code"
     title: "Core Technologies"
     kind: "languages"
@@ -46,7 +46,6 @@ quickfacts:
     kind: "interests"
     value: |
       - Backend APIs
-      - ETL and data pipelines
-      - LIMS and industrial data integration
       - Applied AI (RAG and API integrations)
+      - Embedded electronics
 ---
