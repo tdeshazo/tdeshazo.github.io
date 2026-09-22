@@ -12,7 +12,7 @@ defaultContentLanguageInSubdir = false
     weight = 1
     [languages.en.params]
       tagline = "Scientist. Software Engineer. Problem Solver."
-      hero_description = "Software engineer building API-driven services and ETL pipelines for laboratory and pilot-plant workflows, with 10+ years of domain expertise in high-consequence operational environments."
+      hero_description = "Senior Solutions Architect at Addison Group, with a background in backend services, ETL pipelines, and laboratory data integration and 10+ years of domain expertise in high-consequence operational environments."
       hero_location = "New Jersey, USA"
       collab_tags = [
         "Engineering Software",

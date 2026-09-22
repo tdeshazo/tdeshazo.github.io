@@ -90,6 +90,7 @@
                 <i class="fas fa-calendar-alt mr-2"></i>{{ $exp.period }}
               </div>
               
+              {{ if $exp.bullet_points }}
               <div class="achievements-card bg-gradient-to-br from-bg-secondary to-bg-tertiary dark:from-bg-secondary dark:to-bg-tertiary p-6 rounded-lg shadow-lg border border-border-primary dark:border-border-primary card-hover">
                 <div class="flex items-center mb-4">
                   <i class="fas fa-tasks text-third dark:text-third-light mr-3 text-lg"></i>
@@ -104,6 +105,7 @@
                   {{ end }}
                 </ul>
               </div>
+              {{ end }}
             </div>
           </div>
         </div>

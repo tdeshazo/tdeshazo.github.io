@@ -20,10 +20,14 @@ positions:
   #     - "Earned the Back-end Developer Path Certificate in February 2026."
   #     - "Covered Python, Go, SQL, HTTP APIs, Docker, and AWS fundamentals."
 
+  - company: "Addison Group"
+    role: "Senior Solutions Architect"
+    period: "Apr 2026 - Present"
+
   - company: "ExxonMobil Technology and Engineering Company"
     company_url: "https://corporate.exxonmobil.com"
     role: "Technical Software Engineer"
-    period: "May 2024 - Present"
+    period: "May 2024 - Apr 2026"
     industry: "Research Software and Data Integration"
     location: "Annandale, NJ"
     company_description: "Embedded in pilot plant and laboratory engineering as one of two software engineers supporting research applications and data integrations."
