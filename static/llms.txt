@@ -6,16 +6,16 @@ This is Travis DeShazo's professional website. It describes his software enginee
 
 ## Professional Profile
 
-- [Profile (Markdown)](https://travisdeshazo.com/profile.md): Professional summary, selected achievements, employment history, education, technologies, and contact details.
-- [Professional website](https://travisdeshazo.com/): Biography, skills, experience, and technical stack.
-- [Résumé (PDF)](https://travisdeshazo.com/files/Travis_DeShazo_Resume.pdf): Downloadable professional résumé.
+- [Profile (Markdown)](https://travis.deshazo.dev/profile.md): Professional summary, selected achievements, employment history, education, technologies, and contact details.
+- [Professional website](https://travis.deshazo.dev/): Biography, skills, experience, and technical stack.
+- [Résumé (PDF)](https://travis.deshazo.dev/files/Travis_DeShazo_Resume.pdf): Downloadable professional résumé.
 
 ## Contact and Professional Links
 
-- [Contact](https://travisdeshazo.com/#contact): Contact information and inquiry form for software engineering opportunities and collaborations.
+- [Contact](https://travis.deshazo.dev/#contact): Contact information and inquiry form for software engineering opportunities and collaborations.
 - [GitHub](https://github.com/tdeshazo): Public software repositories and projects.
 - [LinkedIn](https://www.linkedin.com/in/travisdeshazo/): Professional profile and employment history.
 
 ## Optional
 
-- [Projects](https://travisdeshazo.com/projects/): Project index covering laboratory software, separations, AI, and embedded electronics; detailed case studies are currently under construction.
+- [Projects](https://travis.deshazo.dev/projects/): Project index covering laboratory software, separations, AI, and embedded electronics; detailed case studies are currently under construction.

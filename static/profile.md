@@ -3,7 +3,7 @@
 > Senior Solutions Architect at Addison Group with a background in backend services, ETL pipelines, and laboratory data integration.
 
 - Location: New Jersey, USA.
-- Website: [travisdeshazo.com](https://travisdeshazo.com/).
+- Website: [travis.deshazo.dev](https://travis.deshazo.dev/).
 - Last updated: September 22, 2026.
 
 ## Professional Summary
@@ -77,7 +77,7 @@ May 2014–2018 · Annandale, New Jersey
 
 Created the GPT-2 Religion A.I. personal project, training a GPT-2 model on English translations of religious and philosophical texts and releasing a Twitter bot that generated pseudo-biblical verses. The work included corpus preparation, model training, and prompt and output evaluation.
 
-Current technical interests include backend APIs, applied AI through retrieval-augmented generation (RAG) and API integrations, and embedded electronics. The [project index](https://travisdeshazo.com/projects/) also covers laboratory software and separations; detailed case studies are under construction.
+Current technical interests include backend APIs, applied AI through retrieval-augmented generation (RAG) and API integrations, and embedded electronics. The [project index](https://travis.deshazo.dev/projects/) also covers laboratory software and separations; detailed case studies are under construction.
 
 ## Education
 
@@ -98,8 +98,8 @@ Current technical interests include backend APIs, applied AI through retrieval-a
 Open to software engineering opportunities and collaborations in backend systems, laboratory informatics, and data integration.
 
 - [Email: travis@deshazo.dev](mailto:travis@deshazo.dev)
-- [Contact form](https://travisdeshazo.com/#contact)
+- [Contact form](https://travis.deshazo.dev/#contact)
 - [GitHub: tdeshazo](https://github.com/tdeshazo)
 - [LinkedIn: Travis DeShazo](https://www.linkedin.com/in/travisdeshazo/)
-- [Download résumé (PDF)](https://travisdeshazo.com/files/Travis_DeShazo_Resume.pdf)
-- [Professional website](https://travisdeshazo.com/)
+- [Download résumé (PDF)](https://travis.deshazo.dev/files/Travis_DeShazo_Resume.pdf)
+- [Professional website](https://travis.deshazo.dev/)

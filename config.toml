@@ -1,4 +1,4 @@
-baseURL = "https://travisdeshazo.com"
+baseURL = "https://travis.deshazo.dev"
 languageCode = "en-us"
 title = "Travis DeShazo"
 theme = "careercanvas"
