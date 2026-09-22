@@ -5,6 +5,21 @@ theme = "careercanvas"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+# Homepage section data has no standalone article content.
+[[cascade]]
+  [cascade._target]
+    kind = "page"
+    path = "/{about,contact,experience,skills,technical}"
+  [cascade.sitemap]
+    disable = true
+
+# Tag listings are navigation pages, not sitemap destinations.
+[[cascade]]
+  [cascade._target]
+    kind = "{taxonomy,term}"
+  [cascade.sitemap]
+    disable = true
+
 [languages]
   [languages.en]
     contentDir = "content/en"
